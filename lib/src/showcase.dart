@@ -273,7 +273,7 @@ class _ShowcaseState extends State<Showcase> with TickerProviderStateMixin {
         ? Stack(
             children: [
               GestureDetector(
-                onTap: _nextIfAny,
+                // onTap: _nextIfAny,
                 child: ClipPath(
                   clipper: RRectClipper(
                     area: rectBound,
